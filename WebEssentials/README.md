@@ -1,51 +1,11 @@
 # Emoji and Utility Web Components
 
-## 1. Random Emojis Generator
-
-### Functionality
-
-- Clicking a button generates 1-10 random emojis on the screen, based on user input.
-- An input field lets users specify the number of emojis (maximum limit: 10).
-
-### Layout
-
-- Minimalistic design with a centered button, input field, and a display area for emojis.
-
-### Design
-
-- **Background**: Gradient (#f0f4fd to #c1e4fc).
-- **Button**: Rounded with hover effect (#007bff as primary, darkens slightly on hover).
-- **Input Field**: Rounded corners with subtle border (#ddd).
-- **Emoji Display**: Large emojis with a clean font size (e.g., 48px).
-
----
-
-## 2. Interchangeable Colors
-
-### Functionality
-
-- Toggle between 3 predefined color themes (Light, Dark, and Gradient).
-- Theme choice persists after refreshing using localStorage.
-
-### Themes
-
-- **Light**: `--background: #ffffff; --text: #333333;`
-- **Dark**: `--background: #1a1a1a; --text: #f0f0f0;`
-- **Gradient**: `--background: linear-gradient(to right, #6a11cb, #2575fc); --text: #ffffff;`
-
-### Layout
-
-- A dropdown or toggle switch to choose the theme.
-
----
-
 ## 3. Feedback Rating System
 
 ### Functionality
 
 - Let users rate on a scale of 1-5 (using stars or emojis).
 - Optional text area for additional comments.
-- Feedback data is stored in localStorage.
 
 ### Layout
 

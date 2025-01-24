@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind + Custom Font</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Merriweather:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-slate-100 w-screen h-screen text-slate-900">
+    <section class="w-full h-full p-6 mt-4">
+      <h1 class="text-3xl font-bold i-font py-4">Rating</h1>
+      <!-- first div: star -->
+      <div class="star_rating w-1/2 h-auto">
+        <div class="flex gap-3 star_rating-starts">
+          <div id="star1" class="stars border-2 border-slate-300 rounded-md">
+            <svg
+              id="star"
+              width="37"
+              height="37"
+              viewBox="0 0 100 100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polygon
+                class="starShape"
+                points="50,15 61,35 85,35 67,50 74,75 50,60 26,75 33,50 15,35 39,35"
+                stroke="grey"
+                stroke-width="2"
+                fill="none"
+              />
+            </svg>
+          </div>
+          <div id="star2" class="stars border-2 border-slate-300 rounded-md">
+            <svg
+              id="star"
+              width="37"
+              height="37"
+              viewBox="0 0 100 100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polygon
+                class="starShape"
+                points="50,15 61,35 85,35 67,50 74,75 50,60 26,75 33,50 15,35 39,35"
+                stroke="grey"
+                stroke-width="2"
+                fill="none"
+              />
+            </svg>
+          </div>
+          <div id="star3" class="stars border-2 border-slate-300 rounded-md">
+            <svg
+              id="star"
+              width="37"
+              height="37"
+              viewBox="0 0 100 100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polygon
+                class="starShape"
+                points="50,15 61,35 85,35 67,50 74,75 50,60 26,75 33,50 15,35 39,35"
+                stroke="grey"
+                stroke-width="2"
+                fill="none"
+              />
+            </svg>
+          </div>
+          <div id="star4" class="stars border-2 border-slate-300 rounded-md">
+            <svg
+              id="star"
+              width="37"
+              height="37"
+              viewBox="0 0 100 100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polygon
+                class="starShape"
+                points="50,15 61,35 85,35 67,50 74,75 50,60 26,75 33,50 15,35 39,35"
+                stroke="grey"
+                stroke-width="2"
+                fill="none"
+              />
+            </svg>
+          </div>
+          <div id="star5" class="stars border-2 border-slate-300 rounded-md">
+            <svg
+              id="star"
+              width="37"
+              height="37"
+              viewBox="0 0 100 100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polygon
+                class="starShape"
+                points="50,15 61,35 85,35 67,50 74,75 50,60 26,75 33,50 15,35 39,35"
+                stroke="grey"
+                stroke-width="2"
+                fill="none"
+              />
+            </svg>
+          </div>
+        </div>
+        <p class="mt-2 s-font opacity-70 star_rating-para">Click to rate</p>
+        <p class="mt-2 s-font opacity-70 star_rating-output"></p>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
